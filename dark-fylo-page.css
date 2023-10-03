@@ -1,0 +1,297 @@
+body {
+  font-family: Open Sans, sans-serif;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px
+}
+
+.header-of-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: hsl(217, 28%, 15%);
+  font-family: Raleway, sans-serif;
+}
+
+.fylo-logo {
+  width: 130px;
+  height: 40px;
+}
+
+.right-header {
+  display: flex;
+
+}
+.header-info {
+  margin-right: 25px;
+  margin-left: 25px;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: Raleway, sans-serif;
+}
+
+.header-info:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.intro-box {
+  background-color: hsl(217, 28%, 15%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.intro-img {
+  width: 35%;
+}
+
+.header-intro {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: Raleway, sans-serif;
+}
+
+.body-intro {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.get-started {
+  padding: 10px 60px;
+  background-color: rgb(27, 175, 228);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.get-started:active {
+  background-color: hsl(176, 68%, 64%);
+}
+.layout {
+width: 1366px;
+height: 768px;
+place-items: center;
+display: grid;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(2, 1fr);
+gap: 8px;
+margin-left: 70px;
+}
+
+.access-files,
+.security-trust,
+.real-time,
+.store-file {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-menu {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+.body-menu {
+  text-align: center;
+  font-size: 13px;
+}
+
+.stay-productive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.productive-image {
+  width: 35%;
+}
+
+.textbox {
+  margin-left: 70px;
+}
+.productive-header {
+  font-weight: bold;
+  font-size: 28px;
+  font-family: Raleway, sans-serif;
+}
+
+.productive-body {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.productive-view {
+  font-size: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.productive-view:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.layout-users {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 16px;
+margin-top: 150px;
+position: relative;
+margin-bottom: 175px;
+}
+
+.testimonial {
+  background-color: hsl(219, 30%, 18%);
+  padding: 40px 30px 20px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.quotes {
+  position: absolute;
+  width: 60px;
+  left: 188px;
+  bottom: 165px;
+
+}
+.testimonial-body {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.user-profile {
+  display: flex;
+}
+
+.profile-photo {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+
+.user-name {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  font-family: Raleway, sans-serif;
+}
+
+.user-profession {
+  font-size: 7px;
+}
+
+.subscribe-box {
+  background-color: hsl(217, 28%, 15%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+  width: 45%;
+  position: absolute;
+  bottom: -2000px;
+  left: 370px;
+}
+
+.sub-header {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: Raleway, sans-serif;
+}
+
+.sub-body {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub-search {
+  width: 400px;
+  padding: 10px;
+  border-radius: 40px;
+  margin-right: 15px;
+  border: none;
+ 
+}
+
+.sub-button {
+  padding: 10px 25px;
+  background-color: rgb(27, 175, 228);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bottom-info {
+  background-color: hsl(216, 53%, 9%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 80px;
+  margin-top: 350px;
+}
+
+.locate-icon {
+  width: 9px;
+  height: 10px;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.address {
+  font-size: 10px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.address-icon {
+  width: 9px;
+  height: 10px;
+  margin-right: 15px;
+  margin-top: 40px;
+}
+
+.address-body {
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+.bottom-logo {
+  width: 70px;
+}
+
+.info-options {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.more-info {
+  margin-top: 62px;
+}
+
+.more-info-two {
+  margin-top: 40px;
+}
